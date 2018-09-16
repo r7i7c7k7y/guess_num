@@ -1,5 +1,7 @@
 import random
-r = random.randint(1, 100)
+x = input('輸入猜數字的範圍,1~x,請輸入x :')
+x = int(x)
+r = random.randint(1, x)
 n = 0
 while True:
 	n = n + 1
